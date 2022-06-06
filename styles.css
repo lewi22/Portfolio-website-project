@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+   padding: 0;
+   background-image: url(../images/pexels-pixabay-247431.jpg);
+   background-size: cover;
+   background-color: rgb(15, 15, 15);
+ }
+   
+ 
+ 
+ 
+ 
+ 
+ .main {
+     width : 100%;
+     background-color:linear-gradient;
+     background-position :centre;
+     background-size : cover;
+     height:120vh;
+ }
+ 
+ .navbar{
+     width: 1000px;
+     height: 100px;
+     margin:auto;
+     background-color: white;
+ 
+ }
+ 
+ .icon{  
+ 
+     width: 200px;
+     float:left;
+     height: 50px;
+     
+ 
+ }
+ 
+ .logo{
+ 
+     color:white;
+     font-size: 20px;
+     font-family: Arial;
+     padding-left: 30px;
+     float: left ;
+     padding-top: 10px;
+ }
+ 
+ .menu{
+ 
+     width: 400px;
+     float: left;
+     height: 70px;
+ 
+ }
+ ul{
+     float: left;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+ }
+ ul li{ 
+     list-style: none;
+     margin-left: 65px;
+     margin-top: 27px;
+     font-size: 14px;
+ 
+ }
+ ul li a{
+      text-decoration: none;
+      color:rgb(235, 145, 12);
+      font-family: Arial;
+      font-weight: bold;
+      transition: 0.4s ease-in-out;
+ }
+ 
+ .content{
+     width: 1200px;
+     height: auto;
+     margin: auto;
+     color:white;
+     position: relative;
+ 
+ }
+ 
+ .content.par{
+    padding-left: 20px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+ }
+ .content h1{
+   font-family: 'Times New Roman';
+   font-size: 50px;
+   padding-left: 20px;
+   margin-top: 9%;
+   letter-spacing: 2px;
+ }
+ .content .cn{
+ 
+     width: 160px;
+     height:40px;
+     background-color: chocolate;
+     border: none;
+     margin-bottom: 10px;
+     margin-left: 20px;
+     font-size: 18px;
+     border-radius: 10px;
+ 
+ 
+ }
+ 
+ .content.cn{
+     text-decoration: none;
+     color:black;
+     transition: 3s ease;
+ 
+ 
+ }
+ .content span{
+      color: chocolate;
+      font-size: 60px;
+ 
+ }
+ .about{
+     width:100% ;
+     padding: 100px 0px;
+     color: white;
+ 
+ }
+ .mains{
+     
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     
+ }
+ .about-text h2 { font-family: 'Times New Roman';
+     font-size: 50px;
+     padding-left: 20px;
+     margin-top: 9%;
+     letter-spacing: 2px;
+   
+ 
+ }
+ .about-text p {
+     text-align: left;
+     padding-bottom: 10px;
+     
+ }
+ 
+ .about-text button{
+     width: 160px;
+     height:40px;
+     background-color: chocolate;
+     border: none;
+     margin-bottom: 10px;
+     margin-left: 20px;
+     font-size: 18px;
+     border-radius: 10px;
+     
+ 
+ }
+ 
+ .title h2{
+     font-size: 50px;
+     padding-left: 20px;
+     margin-top: 9%;
+     letter-spacing: 2px;
+     color: white;
+   
+ }
+ 
+ .pra p{
+ color: white;
+ margin-bottom: 20px;
+ }
+ 
+ .card h5{
+     color: chocolate;
+ 
+ }
+ 
